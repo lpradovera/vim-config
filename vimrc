@@ -20,3 +20,8 @@ set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
 colorscheme koehler
+set showtabline=2
+map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
+map <C-H> :tabp<CR>
+map <C-L> :tabn<CR>
+
