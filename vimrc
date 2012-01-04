@@ -25,3 +25,4 @@ map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
 map <C-H> :tabp<CR>
 map <C-L> :tabn<CR>
 
+let g:gist_open_browser_after_post = 1
