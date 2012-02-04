@@ -5,6 +5,7 @@ syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
+set number
 
 "" Whitespace
 set nowrap                      " don't wrap lines
@@ -26,3 +27,7 @@ map <C-H> :tabp<CR>
 map <C-L> :tabn<CR>
 
 let g:gist_open_browser_after_post = 1
+let g:CommandTAcceptSelectionMap = '<C-t>'
+let g:CommandTAcceptSelectionTabMap = '<CR>'
+
+set guifont=Pragmata\ Medium:h13
