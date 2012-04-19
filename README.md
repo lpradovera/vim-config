@@ -10,7 +10,7 @@ After cloning, use:
 
   cd ~
 
-  ln -s .vimrc .vim/vimrc
+  ln -s .vim/vimrc .vimrc
 
 
 ## Command-T

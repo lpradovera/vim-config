@@ -26,8 +26,17 @@ map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
 map <C-H> :tabp<CR>
 map <C-L> :tabn<CR>
 
+let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
 let g:CommandTAcceptSelectionMap = '<C-t>'
 let g:CommandTAcceptSelectionTabMap = '<CR>'
 
 set guifont=Pragmata\ Medium:h13
+
+" word wrap settings
+:set wrap
+:set linebreak
+:set nolist  " list disables linebreak
+:set textwidth=0
+:set wrapmargin=0
+:set formatoptions+=l
