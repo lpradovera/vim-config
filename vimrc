@@ -31,7 +31,7 @@ let g:gist_open_browser_after_post = 1
 let g:CommandTAcceptSelectionMap = '<C-t>'
 let g:CommandTAcceptSelectionTabMap = '<CR>'
 
-set guifont=Pragmata\ Medium:h13
+set guifont=Consolas:h13
 
 " word wrap settings
 :set wrap
